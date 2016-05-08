@@ -22,7 +22,7 @@
           {.equal? @index 91}</div><div class="Index-gallery-inner clear" data-index-gallery-images="9">{.end}
           {.equal? @index 100}</div><div class="Index-gallery-inner clear" data-index-gallery-images="9">{.end}
 
-          <article class="Index-gallery-item"{.video?} sqs-controller="Template.Controllers.IndexGalleryVideo"{.end}>
+          <article class="Index-gallery-item"{.video?} sqs-controller="Template.Controllers.IndexGalleryVideo"{.end}> added by dmc
 
             <div class="Index-gallery-item-inner">
 
