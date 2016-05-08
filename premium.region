@@ -164,6 +164,6 @@
     <squarespace:script src="controllers/OverlayOffset.js" combo="true" />
 
     {squarespace-footers}
-    
+    DMC
   </body>
 </html> 
