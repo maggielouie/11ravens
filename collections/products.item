@@ -17,19 +17,23 @@
     <div id="productDetails">
       {@|product-status}
 		<div id="pLeft">
-      <h1 class="product-title">{title}</h1>
+      		<h1 class="product-title">{title}</h1>
 
-
+      	</div>
+		<div id="pCtr">
 
       {.excerpt?}
         <div class="product-excerpt">
           {excerpt}
         </div>
       {.end}
+      	</div>
+      	<div id="pRight">
 
       {@|product-checkout}
       {@|product-price}
-      </div>
+      	</div>
+
     </div>
 
     <!-- This displays any text/blocks added to the Additional Info tab -->
