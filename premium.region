@@ -107,6 +107,7 @@
                 <squarespace:block-field id="{collection.id}_intro" class="Intro-content{.if collection.mainImage} sqs-alternate-block-style-container{.end}" columns="12" label="Intro" />
                 {.section collection}
                   {.section mainImage}
+                  	<div>DMC in premium template</div>
                     <figure class="Intro-image" data-parallax-image-wrapper><img {@|image-meta} data-load="false" /></figure>
                   {.end}
                 {.end}
