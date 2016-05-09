@@ -45,7 +45,10 @@
   </div>
   <script>
   jQuery(document).ready(function($){
-  	alert('doc ready');
+  	//alert('doc ready');
+  		var p1=$( "#pCtr .product-excerpt").html().split("</p>");
+  		alert("p="+p1[0]);
+  		
   });
   </script>
 {.end}
