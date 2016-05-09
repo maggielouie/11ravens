@@ -39,4 +39,9 @@
     </div>
 
   </div>
+  <script>
+  jQuery(document).ready(function($){
+  	alert('doc ready')l
+  });
+  </script>
 {.end}
