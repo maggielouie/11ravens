@@ -52,7 +52,7 @@
   	//	alert("p="+p1[1]);
   		$("#pLeft").append("<p>"+p2[1]+"</p>");
   		$(".product-excerpt").html(p1[1]+"</p>");
-  		
+  		$("#pCtr").css('height',"200px");
   		
   });
   </script>
