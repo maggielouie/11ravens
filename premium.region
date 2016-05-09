@@ -134,6 +134,7 @@
               {squarespace.main-content}
             </section>
           {.end}
+          <div>DMC in premium template 3</div>
         </main>
 
 
