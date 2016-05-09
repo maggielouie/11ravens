@@ -53,8 +53,8 @@
   		$("#pLeft").append("<p>"+p2[1]+"</p>");
   		$(".product-excerpt").html(p1[1]+"</p>");
   		
-  		alert("here"+$("#productDetails").height());
-  		//$("#pCtr").css('height',"200px");
+  		//alert("here"+$("#productDetails").height());
+  		$("#pCtr").css('height',$("#productDetails").height());
   		
   });
   </script>
