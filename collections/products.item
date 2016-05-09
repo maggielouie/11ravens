@@ -51,7 +51,7 @@
   		var p1=$( "#pCtr .product-excerpt").html().split("<h2");
   		//var p2=p1[0].split(">");
   		
-  		alert("p="+p1[0]);
+  	//	alert("p="+p1[0]);
   		$("#pLeft").append(p1[0]);
   		$(".product-excerpt").html("<h2"+p1[1]);
   		
