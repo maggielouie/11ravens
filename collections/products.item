@@ -16,10 +16,10 @@
     <!-- This shows the status (sold out/on sale), price, and description (excerpt) text -->
     <div id="productDetails">
       {@|product-status}
-
+		<div id="pLeft">
       <h1 class="product-title">{title}</h1>
 
-      {@|product-price}
+
 
       {.excerpt?}
         <div class="product-excerpt">
@@ -28,6 +28,8 @@
       {.end}
 
       {@|product-checkout}
+      {@|product-price}
+      </div>
     </div>
 
     <!-- This displays any text/blocks added to the Additional Info tab -->
