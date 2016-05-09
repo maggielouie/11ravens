@@ -41,7 +41,7 @@
   </div>
   <script>
   jQuery(document).ready(function($){
-  	alert('doc ready')l
+  	alert('doc ready');
   });
   </script>
 {.end}
