@@ -58,6 +58,9 @@
   		if (viewportWidth>700){
    			$("#pCtr").css('height',$("#productDetails").height()); 		 		
   		}
+  		alert($(".product-price .sqs-money-native").text())
+  		
+  		
   		
   });
   </script>
