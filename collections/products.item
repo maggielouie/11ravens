@@ -62,7 +62,11 @@
   		var pPrice=$(".product-price .sqs-money-native").text();
   		if (pPrice=="0.00") {
   			$(".product-price").css('display','none');
-  			$("#pRight").html("Contact button here");
+  			var lmButton='<div class="sqs-block-button-container--center">';
+				lmButton+='<a href="/contact" class="sqs-block-button-element--small sqs-block-button-element">Learn More</a>';
+				lmButton+='</div>';
+  			
+  			$("#pRight").html(lmButton);
   		}	
   		
   });
