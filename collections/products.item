@@ -61,8 +61,8 @@
   	//	alert($(".product-price .sqs-money-native").text())
   		var pPrice=$(".product-price .sqs-money-native").text();
   		if (pPRice=="0.00") {
-  			$(".product-price").css('display:none');
-  			$(".pRight").html("Contact button here");
+  			$(".product-price").css('display','none');
+  			$("#pRight").html("Contact button here");
   		}	
   		
   });
