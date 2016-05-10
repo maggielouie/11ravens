@@ -29,9 +29,8 @@
       {.end}
       	</div>
       	<div id="pRight">
-
-      {@|product-checkout}
-      {@|product-price}
+ 			{@|product-price}
+      		{@|product-checkout}
       	</div>
 
     </div>
