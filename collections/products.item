@@ -58,7 +58,7 @@
   		if (viewportWidth>700){
    			$("#pCtr").css('height',$("#productDetails").height()); 		 		
   		}
-  		alert($(".product-price .sqs-money-native").text())
+  	//	alert($(".product-price .sqs-money-native").text())
   		var pPrice=$(".product-price .sqs-money-native").text();
   		if (pPrice=="0.00") {
   			$(".product-price").css('display','none');
