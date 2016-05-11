@@ -86,8 +86,11 @@
   			$(".Cart-inner").css('background-color','#e28420');
   		}
   		if (pQuant=="6") {
-  			$(".Cart-inner").css('background-color','#e28420');
-  		}    		 	  			
+  			$(".Cart-inner").css('background-color','#016436');
+  		}
+  		if (pQuant=="7") {
+  			$(".Cart-inner").css('background-color','#016436');
+  		}   		    		 	  			
   });
   </script>
   {.end}
