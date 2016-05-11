@@ -70,11 +70,12 @@
   		}	
   		var pQuant=$(".Cart-inner .sqs-cart-quantity").text();
   		alert(pQuant);
-  		if (pQuant=="00") {
+  		if (pQuant=="1") {
   			$(".Cart-inner").css('background-color','#2c2f8c');
-  			
   		}
-  		//$(".Cart-inner").css();
+  		if (pQuant=="2") {
+  			$(".Cart-inner").css('background-color','#2c2f8c');
+  		}
   		
   });
   </script>
