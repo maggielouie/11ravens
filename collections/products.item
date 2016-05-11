@@ -68,6 +68,9 @@
   			
   			$("#pRight").html(lmButton);
   		}	
+  		var pQuant=$(".Cart-inner .sqs-cart-quantity").text();
+  		alert(pQuant);
+  		//$(".Cart-inner").css();
   		
   });
   </script>
