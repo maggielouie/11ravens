@@ -70,7 +70,7 @@
   		}	
   		var pQuant=$(".Cart-inner .sqs-cart-quantity").text();
   		alert(pQuant);
-  		if (pQuant==0) {
+  		if (pQuant=="00") {
   			$(".Cart-inner").css('background-color','#2c2f8c');
   			
   		}
