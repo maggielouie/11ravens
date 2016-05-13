@@ -71,30 +71,30 @@
    		  		    		 	  			
   });
   $(window).load(function() {
-  		var pQuant=$("\.sqs-cart-quantity").text();
+  		var pQuant=$(".Cart-inner .sqs-cart-quantity").text();
   		alert(pQuant);
-  		if (pQuant=="1") {
+  		if (pQuant=="11") {
   			$(".Cart-inner").css('background-color','#fff653');
   		}
-  		if (pQuant=="2") {
+  		if (pQuant=="22") {
   			$(".Cart-inner").css('background-color','#2c2f8c');
   		}
-  		if (pQuant=="3") {
+  		if (pQuant=="33") {
   			$(".Cart-inner").css('background-color','#ff2c2b');
   		}  		
-  		if (pQuant=="4") {
+  		if (pQuant=="44") {
   			$(".Cart-inner").css('background-color','#622a8b');
   		}
-  		if (pQuant=="5") {
+  		if (pQuant=="55") {
   			$(".Cart-inner").css('background-color','#e28420');
   		}
-  		if (pQuant=="6") {
+  		if (pQuant=="66") {
   			$(".Cart-inner").css('background-color','#016436');
   		}
-  		if (pQuant=="7") {
+  		if (pQuant=="77") {
   			$(".Cart-inner").css('background-color','#b30101');
   		}
-  		if (pQuant=="8") {
+  		if (pQuant=="88") {
   			$(".Cart-inner").css('background-color','#000');
   		}   
   });
