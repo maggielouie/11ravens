@@ -72,7 +72,7 @@
   });
   $(window).load(function() {
   
-  		$('.Header .Cart .Cart-inner .sqs-cart-quantity').bind('contentchanged', function () {
+  		$('.Header .Cart .Cart-inner .sqs-cart-quantity').bind('DOMNodeInserted DOMSubtreeModified DOMNodeRemoved', function () {
   alert(pQuant);
   		});
   		var pQuant=$(".Header .Cart .Cart-inner .sqs-cart-quantity").text();
