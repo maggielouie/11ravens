@@ -71,7 +71,7 @@
    		  		    		 	  			
   });
   $(window).load(function() {
-  		var pQuant=$(".sqs-cart-quantity").text();
+  		var pQuant=$("\.sqs-cart-quantity").text();
   		alert(pQuant);
   		if (pQuant=="1") {
   			$(".Cart-inner").css('background-color','#fff653');
