@@ -74,7 +74,7 @@
   
   		//$('yourTextarea').bind('change', function () {
   
-  		var pQuant=$(".Cart .Cart-inner .sqs-cart-quantity").text();
+  		var pQuant=$(".Header .Cart .Cart-inner .sqs-cart-quantity").text();
   		
   		alert(pQuant);
   		if (pQuant=="1") {
