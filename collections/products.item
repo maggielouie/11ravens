@@ -72,11 +72,12 @@
   });
   $(window).load(function() {
   
-  		//$('yourTextarea').bind('change', function () {
-  
+  		$('.Header .Cart .Cart-inner .sqs-cart-quantity').bind('change', function () {
+  alert(pQuant);
+  		});
   		var pQuant=$(".Header .Cart .Cart-inner .sqs-cart-quantity").text();
   		
-  	//	alert(pQuant);
+  		
   		if (pQuant=="1") {
   			$(".Cart-inner").css('background-color','#fff653');
   		}
