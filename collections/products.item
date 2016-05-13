@@ -68,6 +68,9 @@
   			
   			$("#pRight").html(lmButton);
   		}	
+   		  		    		 	  			
+  });
+  $(window).load(function() {
   		var pQuant=$(".Cart-inner .sqs-cart-quantity").text();
   		alert(pQuant);
   		if (pQuant=="1") {
@@ -93,8 +96,9 @@
   		}
   		if (pQuant=="8") {
   			$(".Cart-inner").css('background-color','#000');
-  		}    		  		    		 	  			
+  		}   
   });
+  
   </script>
   {.end}
 {.end}
