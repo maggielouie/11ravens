@@ -71,30 +71,34 @@
    		  		    		 	  			
   });
   $(window).load(function() {
-  		var pQuant=$(".Cart-inner .sqs-cart-quantity").text();
+  
+  		//$('yourTextarea').bind('change', function () {
+  
+  		var pQuant=$(".Cart .Cart-inner .sqs-cart-quantity").text();
+  		
   		alert(pQuant);
-  		if (pQuant=="11") {
+  		if (pQuant=="1") {
   			$(".Cart-inner").css('background-color','#fff653');
   		}
-  		if (pQuant=="22") {
+  		if (pQuant=="2") {
   			$(".Cart-inner").css('background-color','#2c2f8c');
   		}
-  		if (pQuant=="33") {
+  		if (pQuant=="3") {
   			$(".Cart-inner").css('background-color','#ff2c2b');
   		}  		
-  		if (pQuant=="44") {
+  		if (pQuant=="4") {
   			$(".Cart-inner").css('background-color','#622a8b');
   		}
-  		if (pQuant=="55") {
+  		if (pQuant=="5") {
   			$(".Cart-inner").css('background-color','#e28420');
   		}
-  		if (pQuant=="66") {
+  		if (pQuant=="6") {
   			$(".Cart-inner").css('background-color','#016436');
   		}
-  		if (pQuant=="77") {
+  		if (pQuant=="7") {
   			$(".Cart-inner").css('background-color','#b30101');
   		}
-  		if (pQuant=="88") {
+  		if (pQuant=="8") {
   			$(".Cart-inner").css('background-color','#000');
   		}   
   });
