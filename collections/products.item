@@ -65,7 +65,7 @@
 				lmButton+='<a href="/contact" class="sqs-block-button-element--small sqs-block-button-element">Learn More</a>';
 				lmButton+='</div></div>';
   			
-  			$("#pRight").html(lmButton);
+  			//$("#pRight").html(lmButton);
   		}	
   		else {
   		//	alert('here');
