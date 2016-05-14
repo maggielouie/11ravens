@@ -67,6 +67,9 @@
   			
   			$("#pRight").html(lmButton);
   		}	
+  		else {
+  			alert('here');
+  		}
    		  		    		 	  			
   });
   $(window).load(function() {
