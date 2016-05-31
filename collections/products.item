@@ -51,7 +51,7 @@
   		"https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574d2e5860b5e9b0a7857a19/1464675944310/crop-arhlight-tennis-padauk.gif"];
   		var colorName=["","Bamboo","Cocobolo","Teak","Padauk"];
   		
-  		$("#productSlideshow").html('<img class="" data-image-focal-point="0.5,0.5" data-image-dimensions="1920x615" data-image="" data-src="'+colorChoice[x]+'" style="" alt="Arclight Table Tennis table" src="'+colorChoice[x]+'?format=1500w" data-image-resolution="1500w">');
+  		//$("#productSlideshow").html('<img class="" data-image-focal-point="0.5,0.5" data-image-dimensions="1920x615" data-image="" data-src="'+colorChoice[x]+'" style="" alt="Arclight Table Tennis table" src="'+colorChoice[x]+'?format=1500w" data-image-resolution="1500w">');
   		$("#productSlideshow img").attr('src',colorChoice[x]);
   		
   		$("#color_cont img").css({'border':'none'});
