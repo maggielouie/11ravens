@@ -53,7 +53,7 @@
   		
   		$("#productSlideshow").html('<img class="" data-image-focal-point="0.5,0.5" data-image-dimensions="1920x615" data-image="" data-src="'+colorChoice[x]+'" style="" alt="Arclight Table Tennis table" src="'+colorChoice[x]+'?format=1500w" data-image-resolution="1500w">');
   		$("#color_cont img").css({'border':'none'});
-  		$()
+  		$("#clr-"+x+" img").css('border':'1px solid red');
   	}
   	
   	  
