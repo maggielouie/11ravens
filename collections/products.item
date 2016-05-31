@@ -46,8 +46,12 @@
   jQuery(document).ready(function($){
   	var viewportWidth = jQuery(window).width();
  
-  	var color1="https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574d2e5860b5e9b0a7857a19/1464675944310/crop-arhlight-tennis-padauk.gif";
-  	var color2="https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574d2e1f8259b5de673e173c/1464675904515/crop-arhlight-tennis-bamboo.gif";
+  	function csfc(x){
+  		alert(x);
+  		var color1="https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574d2e5860b5e9b0a7857a19/1464675944310/crop-arhlight-tennis-padauk.gif";
+  		var color2="https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574d2e1f8259b5de673e173c/1464675904515/crop-arhlight-tennis-bamboo.gif";
+  	
+  	}
   	//alert('doc ready');
   		var p1=$( "#pCtr .product-excerpt").html().split("<h2");
   		
@@ -65,12 +69,12 @@
   			$(".product-price").css('display','none');
   			
   				var CC='<div id="color_cont" style="display:none;">';
-      				CC+='<a href="#"><img src="https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574d295f9f726665ee370a3e/1464674657047/bamboo.jpg"></a>';
+      				CC+='<a href="javascript:csfc(1);"><img src="https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574d295f9f726665ee370a3e/1464674657047/bamboo.jpg"></a>';
 	  				CC+='<a href="#"><img src="https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574d297486db431f094cf87b/1464674865929/brushed-aluminum.jpg"></a>';
       				CC+='<a href="#"><img src="https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574d29939f726665ee370b30/1464674709642/cocobolo.jpg"></a>';
       				CC+='<a href="#"><img src="https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574d29a686db431f094cf980/1464674728360/macassar-ebony.jpg"></a>';
       				CC+='<a href="#"><img src="https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574d29bd86db431f094cfa0a/1464674751502/oak.jpg"></a>';
-      				CC+='<a href="#"><img src="https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574d29d786db431f094cfaa4/1464674777533/padauk.jpg"></a>';
+      				CC+='<a href="javascript:csfc(1);"><img src="https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574d29d786db431f094cfaa4/1464674777533/padauk.jpg"></a>';
       				CC+='</div>';
   			
   			var lmButton=CC+'<div class="sqs-block-button"><div class="sqs-block-button-container--center">';
