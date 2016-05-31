@@ -46,9 +46,10 @@
   	function csfc(x){
   		alert(x+":"+window.location.pathname);
   		var colorChoice=["","https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574d2e1f8259b5de673e173c/1464675904515/crop-arhlight-tennis-bamboo.gif",
-  		"https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574d35a9859fd022e5b668ef/1464677803626/crop-arhlight-tennis-cocobolo.gif?format=2500w",
+  		"https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574d35a9859fd022e5b668ef/1464677803626/crop-arhlight-tennis-cocobolo.gif",
+  		"https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574d368f22482ec4b43c4606/1464678033811/crop-arhlight-tennis-teak.gif",
   		"https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574d2e5860b5e9b0a7857a19/1464675944310/crop-arhlight-tennis-padauk.gif"];
-  		
+  
   		
   		$("#productSlideshow").html('<img class="" data-image-focal-point="0.5,0.5" data-image-dimensions="1920x615" data-image="" data-src="'+colorChoice[x]+'" style="" alt="Arclight Table Tennis table" src="'+colorChoice[x]+'?format=1500w" data-image-resolution="1500w">');
   	}
@@ -76,11 +77,13 @@
   			
   				var CC='<div id="color_cont" style="display:none;">';
       				CC+='<a href="javascript:csfc(1);"><img src="https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574d295f9f726665ee370a3e/1464674657047/bamboo.jpg"></a>';
-	  				CC+='<a href="#"><img src="https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574d297486db431f094cf87b/1464674865929/brushed-aluminum.jpg"></a>';
+	  			//	CC+='<a href="#"><img src="https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574d297486db431f094cf87b/1464674865929/brushed-aluminum.jpg"></a>';
       				CC+='<a href="javascript:csfc(2);"><img src="https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574d29939f726665ee370b30/1464674709642/cocobolo.jpg"></a>';
-      				CC+='<a href="#"><img src="https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574d29a686db431f094cf980/1464674728360/macassar-ebony.jpg"></a>';
-      				CC+='<a href="#"><img src="https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574d29bd86db431f094cfa0a/1464674751502/oak.jpg"></a>';
-      				CC+='<a href="javascript:csfc(2);"><img src="https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574d29d786db431f094cfaa4/1464674777533/padauk.jpg"></a>';
+      			//	CC+='<a href="#"><img src="https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574d29a686db431f094cf980/1464674728360/macassar-ebony.jpg"></a>';
+      			//	CC+='<a href="#"><img src="https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574d29bd86db431f094cfa0a/1464674751502/oak.jpg"></a>';
+      				CC+='<a href="javascript:csfc(3);"><img src="https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574d37082fe1312abdefefe9/1464678154126/teak.jpg"></a>';
+      			
+      				CC+='<a href="javascript:csfc(4);"><img src="https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574d29d786db431f094cfaa4/1464674777533/padauk.jpg"></a>';
       				CC+='</div>';
   			
   			var lmButton=CC+'<div class="sqs-block-button"><div class="sqs-block-button-container--center">';
