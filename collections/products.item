@@ -41,14 +41,14 @@
       {@}
     </div>
 
-  </div>https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574dc190c6fc084093c6b394/1464713618170/arclight-padauk-HERO.jpg
+  </div>
   <script>
   	function csfc(x){
   		//alert(x+":"+window.location.pathname);
   		var colorChoice=["","https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574dc18fc6fc084093c6b38f/1464713617839/arclight-bamboo-iHERO.jpg",
+  		"https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574dc1912eeb8106009ffab7/1464713618734/Arclight-cocobolo-HERO-1.jpg",
   		"https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574dc18f2eeb8106009ffa8f/1464713617797/arclight-teak-HERO+copy.jpg",
-  		"https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574d368f22482ec4b43c4606/1464678033811/crop-arhlight-tennis-teak.gif",
-  		"https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574d2e5860b5e9b0a7857a19/1464675944310/crop-arhlight-tennis-padauk.gif"];
+  		"https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574dc190c6fc084093c6b394/1464713618170/arclight-padauk-HERO.jpg"];
   		var colorName=["","Bamboo","Cocobolo","Teak","Padauk"];
   		
   		//$("#productSlideshow").html('<img class="" data-image-focal-point="0.5,0.5" data-image-dimensions="1920x615" data-image="" data-src="'+colorChoice[x]+'" style="" alt="Arclight Table Tennis table" src="'+colorChoice[x]+'?format=1500w" data-image-resolution="1500w">');
