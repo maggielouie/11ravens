@@ -64,6 +64,17 @@
   jQuery(document).ready(function($){
   	var viewportWidth = jQuery(window).width();
  
+ 
+  	if (viewportWidth<700) {
+  		if (window.location.pathname==="/shop/arclight-table-tennis") {
+  			$("#productSlideshow img").attr('src','https://static1.squarespace.com/static/56f55724d210b839ae597438/574d4242b654f95fce4faf01/574d429760b5e9b0a785be29/1464681114096/arclight-padauk-table-tennis.gif');
+  		}
+
+  		if (window.location.pathname==="/shop/arclight-table-tennis") {
+  			$("#productSlideshow img").attr('src','https://static1.squarespace.com/static/56f55724d210b839ae597438/574d4242b654f95fce4faf01/574d429760b5e9b0a785be29/1464681114096/arclight-padauk-table-tennis.gif');
+  		}
+
+  	}
 
   	//alert('doc ready');
   		var p1=$( "#pCtr .product-excerpt").html().split("<h2");
