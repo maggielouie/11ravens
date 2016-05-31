@@ -73,11 +73,18 @@
   		if (window.location.pathname==="/shop/avettore-orange-table-tennis") {
   			$("#productSlideshow img").attr('src','https://static1.squarespace.com/static/56f55724d210b839ae597438/574d4242b654f95fce4faf01/574d42c92b8ddef6b3513ab8/1464681164943/avettore-walnut-dining-table.gif');
   		}
-  		if (window.location.pathname==="/shop/hampton-table-tennis) {
+  		if (window.location.pathname==="/shop/hampton-table-tennis") {
   			$("#productSlideshow img").attr('src','https://static1.squarespace.com/static/56f55724d210b839ae597438/574d4242b654f95fce4faf01/574d430f2eeb81625a01d17f/1464681234036/hampton-white-table-tennis.gif');
   		}
-
-
+  		if (window.location.pathname==="/shop/raven-table-tennis") {
+  			$("#productSlideshow img").attr('src','https://static1.squarespace.com/static/56f55724d210b839ae597438/574d4242b654f95fce4faf01/574d433e40261d75974eb3ef/1464681281626/raven-macassar-table-tennis.gif');
+  		}
+  		if (window.location.pathname==="/shop/stealth-table-tennis") {
+  			$("#productSlideshow img").attr('src','https://static1.squarespace.com/static/56f55724d210b839ae597438/574d4242b654f95fce4faf01/574d4389ab48de41ef99d018/1464681356195/stealth-billiards-side.gif');
+  		}
+  		if (window.location.pathname==="/shop/hampton-table-tennis") {
+  			$("#productSlideshow img").attr('src','https://static1.squarespace.com/static/56f55724d210b839ae597438/574d4242b654f95fce4faf01/574d430f2eeb81625a01d17f/1464681234036/hampton-white-table-tennis.gif');
+  		}  		
   	}
 
   	//alert('doc ready');
