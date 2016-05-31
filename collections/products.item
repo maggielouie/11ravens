@@ -48,7 +48,7 @@
  
   	function csfc(x){
   		alert(x);
-  		var color["","https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574d2e5860b5e9b0a7857a19/1464675944310/crop-arhlight-tennis-padauk.gif","https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574d2e1f8259b5de673e173c/1464675904515/crop-arhlight-tennis-bamboo.gif"];
+  		var colorChoice=["","https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574d2e5860b5e9b0a7857a19/1464675944310/crop-arhlight-tennis-padauk.gif","https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574d2e1f8259b5de673e173c/1464675904515/crop-arhlight-tennis-bamboo.gif"];
   		
   		
   		$("#productSlideshow").html('<img class="" data-image-focal-point="0.5,0.5" data-image-dimensions="1920x615" data-image="" data-src="'+color[x]+'" style="" alt="Arclight Table Tennis table" src="'+'.color[x].'+'?format=1500w" data-image-resolution="1500w">');
