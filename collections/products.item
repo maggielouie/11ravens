@@ -82,9 +82,12 @@
   		if (window.location.pathname==="/shop/stealth-table-tennis") {
   			$("#productSlideshow img").attr('src','https://static1.squarespace.com/static/56f55724d210b839ae597438/574d4242b654f95fce4faf01/574d4389ab48de41ef99d018/1464681356195/stealth-billiards-side.gif');
   		}
-  		if (window.location.pathname==="/shop/hampton-table-tennis") {
-  			$("#productSlideshow img").attr('src','https://static1.squarespace.com/static/56f55724d210b839ae597438/574d4242b654f95fce4faf01/574d430f2eeb81625a01d17f/1464681234036/hampton-white-table-tennis.gif');
+  		if (window.location.pathname==="/shop/theseus-table-tennis") {
+  			$("#productSlideshow img").attr('src','https://static1.squarespace.com/static/56f55724d210b839ae597438/574d4242b654f95fce4faf01/574d43d22eeb81625a01d3e1/1464681428903/theseus-bamboo-table-tennis.gif');
   		}  		
+  		if (window.location.pathname==="/shop/theseus-shuffleboard") {
+  			$("#productSlideshow img").attr('src','https://static1.squarespace.com/static/56f55724d210b839ae597438/574d4242b654f95fce4faf01/574d4413b6aa60d843ac8bfa/1464681494472/theseus-white-shufflebard.gif');
+  		}  	  		
   	}
 
   	//alert('doc ready');
