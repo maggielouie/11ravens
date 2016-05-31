@@ -75,6 +75,7 @@
   		if (pPrice==="0.00") {
   			$(".product-price").css('display','none');
   			
+  				
   				var CC='<div id="color_cont" style="display:none;">';
       				CC+='<a href="javascript:csfc(1);"><img src="https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574d295f9f726665ee370a3e/1464674657047/bamboo.jpg"></a>';
 	  			//	CC+='<a href="#"><img src="https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574d297486db431f094cf87b/1464674865929/brushed-aluminum.jpg"></a>';
@@ -85,8 +86,12 @@
       			
       				CC+='<a href="javascript:csfc(4);"><img src="https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574d29d786db431f094cfaa4/1464674777533/padauk.jpg"></a>';
       				CC+='</div>';
-  			
-  			var lmButton=CC+'<div class="sqs-block-button"><div class="sqs-block-button-container--center">';
+  			if (window.location.pathname==="/shop/arclight-table-tennis") {
+  			  	var lmButton=CC+'<div class="sqs-block-button"><div class="sqs-block-button-container--center">';
+  			}
+  			else {
+  			  	var lmButton='<div class="sqs-block-button"><div class="sqs-block-button-container--center">';
+  			}
 				lmButton+='<a href="/contact" class="sqs-block-button-element--small sqs-block-button-element">Learn More</a>';
 				lmButton+='</div></div>';
   			
