@@ -72,41 +72,6 @@
   		}
    		  		    		 	  			
   });
-/*  $(window).load(function() {
-  		changeBall()
-  		$('.Header .Cart .Cart-inner .sqs-cart-quantity').bind('DOMNodeInserted DOMSubtreeModified DOMNodeRemoved', function () {
- 			changeBall();
-  		});
-  	function changeBall(){
-  		var pQuant=$(".Header .Cart .Cart-inner .sqs-cart-quantity").text();
-  		
-  		
-  		if (pQuant=="1") {
-  			$(".Cart-inner").css('background-color','#fff653');
-  		}
-  		if (pQuant=="2") {
-  			$(".Cart-inner").css('background-color','#2c2f8c');
-  		}
-  		if (pQuant=="3") {
-  			$(".Cart-inner").css('background-color','#ff2c2b');
-  		}  		
-  		if (pQuant=="4") {
-  			$(".Cart-inner").css('background-color','#622a8b');
-  		}
-  		if (pQuant=="5") {
-  			$(".Cart-inner").css('background-color','#e28420');
-  		}
-  		if (pQuant=="6") {
-  			$(".Cart-inner").css('background-color','#016436');
-  		}
-  		if (pQuant=="7") {
-  			$(".Cart-inner").css('background-color','#b30101');
-  		}
-  		if (pQuant=="8") {
-  			$(".Cart-inner").css('background-color','#000');
-  		}  
-  	}	 
-  }); */
   
   </script>
   {.end}
