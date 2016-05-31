@@ -53,7 +53,7 @@
   		color[]="https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574d2e1f8259b5de673e173c/1464675904515/crop-arhlight-tennis-bamboo.gif";
   		
   		
-  		$("#productSlideshow").html("<img class="" data-image-focal-point="0.5,0.5" data-image-dimensions="1920x615" data-image="http://static1.squarespace.com/static/56f55724d210b839ae597438/56f5875cb2d7c7a56b46b6df/573258263c44d8f1228e5cce/1464542609114/crop-arclight-tennis-feature.jpg" data-src="http://static1.squarespace.com/static/56f55724d210b839ae597438/56f5875cb2d7c7a56b46b6df/573258263c44d8f1228e5cce/1464542609114/crop-arclight-tennis-feature.jpg" style="" alt="Arclight Table Tennis table" src="http://static1.squarespace.com/static/56f55724d210b839ae597438/56f5875cb2d7c7a56b46b6df/573258263c44d8f1228e5cce/1464542609114/crop-arclight-tennis-feature.jpg?format=1500w" data-image-resolution="1500w">");
+  		$("#productSlideshow").html('<img class="" data-image-focal-point="0.5,0.5" data-image-dimensions="1920x615" data-image="" data-src="'.color[x].'" style="" alt="Arclight Table Tennis table" src="http://static1.squarespace.com/static/56f55724d210b839ae597438/56f5875cb2d7c7a56b46b6df/573258263c44d8f1228e5cce/1464542609114/crop-arclight-tennis-feature.jpg?format=1500w" data-image-resolution="1500w">');
   	}
   	//alert('doc ready');
   		var p1=$( "#pCtr .product-excerpt").html().split("<h2");
