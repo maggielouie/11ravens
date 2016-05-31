@@ -46,7 +46,7 @@
   	function csfc(x){
   		//alert(x+":"+window.location.pathname);
   		var colorChoice=["","https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574dc18fc6fc084093c6b38f/1464713617839/arclight-bamboo-iHERO.jpg",
-  		"https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574d35a9859fd022e5b668ef/1464677803626/crop-arhlight-tennis-cocobolo.gif",
+  		"https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574dc18f2eeb8106009ffa8f/1464713617797/arclight-teak-HERO+copy.jpg",
   		"https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574d368f22482ec4b43c4606/1464678033811/crop-arhlight-tennis-teak.gif",
   		"https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574d2e5860b5e9b0a7857a19/1464675944310/crop-arhlight-tennis-padauk.gif"];
   		var colorName=["","Bamboo","Cocobolo","Teak","Padauk"];
