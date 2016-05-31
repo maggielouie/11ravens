@@ -49,11 +49,13 @@
   		"https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574d35a9859fd022e5b668ef/1464677803626/crop-arhlight-tennis-cocobolo.gif",
   		"https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574d368f22482ec4b43c4606/1464678033811/crop-arhlight-tennis-teak.gif",
   		"https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574d2e5860b5e9b0a7857a19/1464675944310/crop-arhlight-tennis-padauk.gif"];
-  
+  		var colorName=["","Bamboo","Cocobolo","Teak","Padauk"];
   		
   		$("#productSlideshow").html('<img class="" data-image-focal-point="0.5,0.5" data-image-dimensions="1920x615" data-image="" data-src="'+colorChoice[x]+'" style="" alt="Arclight Table Tennis table" src="'+colorChoice[x]+'?format=1500w" data-image-resolution="1500w">');
   		$("#color_cont img").css({'border':'none'});
   		$("#clr-"+x+" img").css({"border":"1px solid red"});
+  		
+  		$("#colorDesc").text(colorName[x]);
   	}
   	
   	  
@@ -79,6 +81,7 @@
   			
   				
   				var CC='<div id="color_cont" style="display:none;">';
+  					CC+='<span id="colorDesc">Bamboo</span>&nbsp;'
       				CC+='<a id="clr-1" href="javascript:csfc(1);"><img src="https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574d295f9f726665ee370a3e/1464674657047/bamboo.jpg"></a>';
 	  			//	CC+='<a href="#"><img src="https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574d297486db431f094cf87b/1464674865929/brushed-aluminum.jpg"></a>';
       				CC+='<a id="clr-2" href="javascript:csfc(2);"><img src="https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574d29939f726665ee370b30/1464674709642/cocobolo.jpg"></a>';
