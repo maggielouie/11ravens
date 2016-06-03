@@ -133,6 +133,7 @@
   			$("#pRight").html(lmButton);
   		}	
   		else {
+  			$(".product-price").css('display','block');
   		//	alert('here');
   		}
    		  		    		 	  			
