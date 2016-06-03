@@ -1,0 +1,65 @@
+<script>
+jQuery("img[alt='home']").parent().attr("href", "/home/");
+</script>
+
+<script>
+ jQuery(window).load(function($) {
+ 	  	var viewportWidth = jQuery(window).width();
+ 
+ 	  	if (viewportWidth<700) {
+ 	  		alert(viewportWidth);
+ 	  		jQuery(".Mobile-overlay-nav--primary").prepend("<div class='mobov'><a href='tel:13107411681'>CALL NOW</a><div><a class='Mobile-bar-branding' data-content-field='site-title' data-nc-element='branding' href='/'><img class='Mobile-bar-branding-logo' alt='11 RAVENS Luxury Games' src='//static1.squarespace.com/static/56f55724d210b839ae597438/t/573f977422482e19cfd05d43/1464715317671/?format=1500w'></a></div></div>");
+ 	  	
+ 	  	
+        	//alert('page='+window.location.pathname);
+  			if ((window.location.pathname=="")||(window.location.pathname=="/home")||(window.location.pathname=="/")) {
+
+  				jQuery("#shop-featured-tables .sqs-gallery-design-stacked-slide:nth-child(1) a img").attr('src','https://static1.squarespace.com/static/56f55724d210b839ae597438/574d4242b654f95fce4faf01/574d430f2eeb81625a01d17f/1464681234036/hampton-white-table-tennis.gif');
+  				jQuery("#shop-featured-tables .sqs-gallery-design-stacked-slide:nth-child(2) a img").attr('src','https://static1.squarespace.com/static/56f55724d210b839ae597438/574d4242b654f95fce4faf01/574d43d22eeb81625a01d3e1/1464681428903/theseus-bamboo-table-tennis.gif');
+  				jQuery("#shop-featured-tables .sqs-gallery-design-stacked-slide:nth-child(3) a img").attr('src','https://static1.squarespace.com/static/56f55724d210b839ae597438/574d4242b654f95fce4faf01/574d433e40261d75974eb3ef/1464734907618/raven-macassar-table-tennis.gif');
+
+  				jQuery("#shop-featured-tables .sqs-gallery-design-stacked-slide:nth-child(4) a img").attr('src','https://static1.squarespace.com/static/56f55724d210b839ae597438/574d4242b654f95fce4faf01/574d42c92b8ddef6b3513ab8/1464734992912/avettore-walnut-dining-table.gif');  	  				
+  				jQuery("#shop-featured-tables .sqs-gallery-design-stacked-slide:nth-child(5) a img").attr('src','https://static1.squarespace.com/static/56f55724d210b839ae597438/574d4242b654f95fce4faf01/574d4413b6aa60d843ac8bfa/1464681494472/theseus-white-shufflebard.gif'); 
+  				jQuery("#shop-featured-tables .sqs-gallery-design-stacked-slide:nth-child(6) a img").attr('src','https://static1.squarespace.com/static/56f55724d210b839ae597438/574d4242b654f95fce4faf01/574d429760b5e9b0a785be29/1464735053880/arclight-padauk-table-tennis.gif');
+   				jQuery("#shop-featured-tables .sqs-gallery-design-stacked-slide:nth-child(7) a img").attr('src','https://static1.squarespace.com/static/56f55724d210b839ae597438/574d4242b654f95fce4faf01/574d4389ab48de41ef99d018/1464681356195/stealth-billiards-side.gif'); 		
+   				
+   				jQuery("#shop-featured-tables .sqs-gallery-design-stacked-slide a img").css('height','auto'); /* this fixes the height issue of new images */
+   			  			
+			}
+        }
+    	changeBall()
+  		jQuery('.Header .Cart .Cart-inner .sqs-cart-quantity').bind('DOMNodeInserted DOMSubtreeModified DOMNodeRemoved', function () {
+ 			changeBall();
+  		});
+  	function changeBall(){
+    	
+  		var pQuant=jQuery(".Header .Cart .Cart-inner .sqs-cart-quantity").text();
+  		
+  		//alert(pQuant);
+  		if (pQuant=="1") {
+  			jQuery(".Cart-inner").css('background-color','#fff653');
+  		}
+  		if (pQuant=="2") {
+  			jQuery(".Cart-inner").css('background-color','#2c2f8c');
+  		}
+  		if (pQuant=="3") {
+  			jQuery(".Cart-inner").css('background-color','#ff2c2b');
+  		}  		
+  		if (pQuant=="4") {
+  			jQuery(".Cart-inner").css('background-color','#622a8b');
+  		}
+  		if (pQuant=="5") {
+  			jQuery(".Cart-inner").css('background-color','#e28420');
+  		}
+  		if (pQuant=="6") {
+  			jQuery(".Cart-inner").css('background-color','#016436');
+  		}
+  		if (pQuant=="7") {
+  			jQuery(".Cart-inner").css('background-color','#b30101');
+  		}
+  		if (pQuant=="8") {
+  			jQuery(".Cart-inner").css('background-color','#000');
+  		}  
+  	}	 
+  }); 
+  </script>
