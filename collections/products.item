@@ -57,7 +57,7 @@
 
 		//**********************	EDIT COLOR CHOICE IMAGES BELOW HERE ****************************/
   		
-  		var colorName=["","Bamboo","Cocobolo","Teak","Navy","Padauk"];
+  		var colorName=["","Bamboo","Cocobolo","Teak","Navy","Padaukk"];
   		
 		//**********************	EDIT COLOR CHOICE NAMES BELOW HERE ****************************/
 
