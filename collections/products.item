@@ -53,7 +53,8 @@
   		"https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574dc1912eeb8106009ffab7/1464713618734/Arclight-cocobolo-HERO-1.jpg",
   		"https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574dc18f2eeb8106009ffa8f/1464713617797/arclight-teak-HERO+copy.jpg",
   		"https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574dc1902eeb8106009ffab1/1464713617925/arclight-navy-HERO+copy.jpg",
-  		"https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574dc190c6fc084093c6b394/1464713618170/arclight-padauk-HERO.jpg"];
+  		"https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574dc190c6fc084093c6b394/1464713618170/arclight-padauk-HERO.jpg"
+  		"https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/57586ddcb6aa606cce44e939/1465413168304/crop-arclight-billiards-feature.jpg"];
 
 		//**********************	EDIT COLOR CHOICE IMAGES ABOVE HERE ****************************/
 		//**********************	EDIT COLOR CHOICE NAMES BELOW HERE ****************************/  		
@@ -139,10 +140,10 @@
   			}
 
 
-  			if (window.location.pathname==="/shop/SOMEPRODUCTNAME") {  			
+  			if (window.location.pathname==="/shop/arclight-billiards-table") {  			
     				var CC='<div id="color_cont">';
-  					CC+='<div id="colorDesc">STARTING COLOR</div>&nbsp;'
-      				CC+='<a id="clr-1" href="javascript:csfc(1);"><img style="border:1px solid #ffffff;" src="https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574d295f9f726665ee370a3e/1464674657047/bamboo.jpg"></a>';
+  					CC+='<div id="colorDesc">Bamboo</div>&nbsp;'
+      				CC+='<a id="clr-1" href="javascript:csfc(6);"><img style="border:1px solid #ffffff;" src="https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574d37082fe1312abdefefe9/1464678154126/teak.jpg"></a>';
       				CC+='</div>';			
   			  	var lmButton=CC+'<div class="sqs-block-button"><div class="sqs-block-button-container--center">';
   			}
