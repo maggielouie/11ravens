@@ -47,7 +47,7 @@
   	
   		//alert(x+":"+window.location.pathname);
   		
-		//**********************	EDIT COLOR CHOICE IMAGES BELOW HERE dmc ****************************/
+		//**********************	EDIT COLOR CHOICE IMAGES BELOW HERE dmc ml ****************************/
 		  		
   		var colorChoice=["","https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574dc18fc6fc084093c6b38f/1464713617839/arclight-bamboo-iHERO.jpg",
   		"https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574dc1912eeb8106009ffab7/1464713618734/Arclight-cocobolo-HERO-1.jpg",
